@@ -1,0 +1,88 @@
+{
+    "pointer": {
+        "baseOffset": "0x1D2F0C",
+        "offset": "0x4360"
+    },
+    "attributes": {
+        "personality_value": {
+            "offset": "0",
+            "size": "4"
+        },
+        "ot_id": {
+            "offset": "4",
+            "size": "4"
+        },
+        "nickname": {
+            "offset": "8",
+            "size": "10"
+        },
+        "language": {
+            "offset": "18",
+            "size": "1"
+        },
+        "egg_name": {
+            "offset": "19",
+            "size": "1"
+        },
+        "ot_name": {
+            "offset": "20",
+            "size": "7"
+        },
+        "markings": {
+            "offset": "27",
+            "size": "1"
+        },
+        "checksum": {
+            "offset": "28",
+            "size": "2"
+        },
+        "padding": {
+            "offset": "30",
+            "size": "2"
+        },
+        "data": {
+            "offset": "32",
+            "size": "48"
+        },
+        "status_condition": {
+            "offset": "80",
+            "size": "4"
+        },
+        "level": {
+            "offset": "84",
+            "size": "1"
+        },
+        "pokerus": {
+            "offset": "85",
+            "size": "1"
+        },
+        "current_hp": {
+            "offset": "86",
+            "size": "2"
+        },
+        "total_hp": {
+            "offset": "88",
+            "size": "2"
+        },
+        "attack": {
+            "offset": "90",
+            "size": "2"
+        },
+        "defense": {
+            "offset": "92",
+            "size": "2"
+        },
+        "speed": {
+            "offset": "94",
+            "size": "2"
+        },
+        "sp_attack": {
+            "offset": "96",
+            "size": "2"
+        },
+        "sp_defense": {
+            "offset": "98",
+            "size": "2"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+5E B9 2F E3 D8 B9 2F E3 45 E4 2F E3 45 A8 2A C2 8B B2 DE CE 45 B8 2F E3 46 BA 2F E5 45 B8 2F E3 45 B8 2F E3 64 B8 02 E3 F8 B8 2F E3 66 90 25 E3
+orderd = {}
+    orderd["0"] = "GAEM"
+    orderd["1"] = "GAME"
+    orderd["2"] = "GEAM"
+    orderd["3"] = "GEMA"
+    orderd["4"] = "GMAE"
+    orderd["5"] = "GMEA"
+
+    orderd["6"] = "AGEM"
+    orderd["7"] = "AGME"
+    orderd["8"] = "AEGM"
+    orderd["9"] = "AEMG"
+    orderd["10"] = "AMGE"
+    orderd["11"] = "AMEG"
+
+    orderd["12"] = "EGAM"
+    orderd["13"] = "EGMA"
+    orderd["14"] = "EAGM"
+    orderd["15"] = "EAMG"
+    orderd["16"] = "EMGA"
+    orderd["17"] = "EMAG"
+
+    orderd["18"] = "MGAE"
+    orderd["19"] = "MGEA"
+    orderd["20"] = "MAGE"
+    orderd["21"] = "MAEG"
+    orderd["22"] = "MEGA"
+    orderd["23"] = "MEAG"
