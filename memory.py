@@ -4,7 +4,7 @@ from pymem import Pymem
 
 
 class MemoryManager():
-    def __init__(self, filePath):
+    def __init__(self, filePath: str):
         f = open(filePath)
         self.memoryInfo = json.load(f)
         f.close()
@@ -14,8 +14,11 @@ class MemoryManager():
         self.getFirstPokemonAddress()
         self.createPokemons()
 
+    def refreshPokemon(self):
+        self.pokemons = []
+        self.createPokemons()
+
     def writePokemon(self, position=1):
-        print(int.from_bytes(self.pm.read_bytes(int('0x19F23E', 16), 1), 'little'))
         position -= 1
         pokemon = self.pokemons[position]
         pokemonOffset = 100*position
